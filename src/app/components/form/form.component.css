@@ -1,0 +1,37 @@
+.container {
+  margin: auto;
+  padding-top: 200px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+form {
+  margin: 0 auto;
+  width: 400px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+input {
+  height: 30px;
+  padding-left: 10px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.tip {
+  text-align: end;
+  font-size: 0.7em;
+}

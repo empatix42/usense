@@ -1,0 +1,28 @@
+.boxes {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.box {
+  height: 5px;
+  border-radius: 5px;
+  width: 31%;
+  background-color: rgb(185, 185, 185);
+}
+
+.invalid .box {
+  background-color: rgb(251, 129, 129);
+}
+
+.weak .box:first-child {
+  background-color: rgb(251, 129, 129);
+}
+
+.medium .box:nth-child(-n + 2) {
+  background-color: rgb(241, 225, 1);
+}
+
+.strong .box {
+  background-color: rgb(166, 238, 166);
+}
